@@ -1,0 +1,206 @@
+
+
+main {background-image: linear-gradient(to left, blue, grey, white);
+}
+.texto-chico {font-size: 60%; }
+.Texto-principal {font-size: 140px; padding-top: 150px;}
+.tamano {height: 700px;}
+.texto-secundario {font-size: 30px;}
+
+.ImagenInconsciente {height: 540px;}
+.SobreMi {padding-top: 10px;}
+.ambu {height: 80px; 
+      width: auto; 
+      transform: translateX(1400px);
+      animation-name: pasa-la-ambu;
+      animation-delay: 0s;
+      animation-duration: 4s;
+      animation-fill-mode: forwards;    
+      animation-timing-function: linear;
+    }
+.ImagenLactancia {height: 540px;
+                  width: auto;
+}
+
+      
+    @keyframes pasa-la-ambu { 
+      0% {transform: translatex(1350px)}
+      5% {transform: translatex(1300px)}
+      10% {transform: translatex(1250px)}
+      15% {transform: translatex(1200px)}
+      20% {transform: translatex(1150px)}
+      25% {transform: translatex(1100px)}
+      30% {transform: translatex(1050px)}
+      32,5% {transform: translatex(1000px)}
+      35% {transform: translatex(950px)}
+      37,5% {transform: translatex(900px)}
+      40% {transform: translatex(850px)}
+      42,5% {transform: translatex(800px)}
+      45% {transform: translatex(750px)}
+      47,5% {transform: translatex(700px)}
+      50% {transform: translatex(650px)}
+      52,5% {transform: translatex(600px)}
+      55% {transform: translatex(550px)}
+      57,5% {transform: translatex(500px)}
+      60% {transform: translatex(450px)}
+      65% {transform: translatex(400px)}
+      70% {transform: translatex(350px)}
+      75% {transform: translatex(300px)}
+      80% {transform: translatex(250px)}
+      85% {transform: translatex(200px)}
+      90% {transform: translatex(150px)}
+      95% {transform: translatex(100px)}
+      100% {transform: translatex(50px)}
+
+    }
+
+
+/*
+nav ul {position: fixed; 
+        width: 100%; 
+        background-color: darkblue; 
+        top: 0%; }
+
+nav ul li{list-style: none; 
+          display: inline-block; 
+          width: 14%; 
+    }
+
+nav ul li a { text-decoration: none; 
+              color:white;   
+              padding: 20px;
+              display: block} 
+
+
+h1 {text-align: center; 
+    position:relative; 
+    top: 300px; 
+    font-size: 100px; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+  footer {position: fixed; 
+          width: 100%;
+          bottom: 0; 
+          background-color: darkblue; 
+          text-align: center;
+          font-family: Verdana, Geneva, Tahoma, sans-serif;font-size: 35px;
+          color: white;}
+
+*/ 
+
+/*MODIFICACIONES PAG PRIMEROS AUXILIOS
+.ArtPrimerosAux{clear: both;}
+
+
+  .ImagenInconsciente {height: 330px; 
+                      width: 330px;
+                      display: inline-block;
+                      margin-top: 200px; 
+                      }
+
+.ArtPrimerosAux aside {display: inline-block;}
+
+.ArtPrimerosAux aside p { 
+                          position: absolute; 
+                          top: 200px;
+                          font-size: 15px; 
+                          height:1400px; 
+                          width: 800px;}
+*/
+
+
+
+/*MODIFICACIONES PAG TALLERES
+
+.FlyerPA {height: 680px; 
+          width: 480;
+          display: inline-block; 
+          margin-top: 150px;}
+    
+  table {margin-top: 100px; 
+         width: 100%; 
+         align-self: center; }
+  
+  .Talleres aside p{font-size: 15px; 
+                    height: 1400px; 
+                    width: 700px;
+                    position: absolute; 
+                    top: 300px; 
+                    margin-left: 500px;}
+
+.Talleres aside ul {font-size: 15px;
+                    position: absolute; 
+                    top: 600px; 
+                    margin-left: 500px;}
+*/
+
+  /*MODIFICACIONES SOBRE MI
+.SobreMi img {height: 400px; 
+              width: auto; 
+              display: inline-block;
+              margin-top: 200px; 
+              };
+
+    .SobreMi p {font-size: 15px;
+    text-align: center; 
+  position: relative; 
+  top: 800px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif}
+ 
+  .SobreMi h2{position: absolute; 
+              top: 190px; 
+              margin-left: 220px;}
+
+*/
+  /*MODIFICACIONES CONTACTANOS
+  .PaginaDeContacto {display: inline-block; 
+                     position: absolute;
+                     top: 200px; 
+                     left: 300px;}
+
+*/
+  /*MODIFICACIONES CRIANZA
+.Crianza img {height: 330px; 
+              width: auto; 
+              display: block;
+              margin-top: 200px; 
+              }
+
+.Crianza aside article h2{ position: absolute; 
+                          top: 150px; 
+                          margin-left: 500px;}
+
+
+.Crianza aside article p{font-size: 15px; 
+                        height: 1400px; 
+                        width: 700px;
+                        position: absolute; 
+                        top: 200px; 
+                        margin-left: 500px;}
+
+*/
+
+  /*MODIFICACIONES LACTANCIA
+
+.Lactancia img {width: 750px; 
+                height: auto;
+                display: block;
+                margin-top: 200px; 
+                }
+
+.Lactancia article h2{ position: absolute; 
+                      top: 200px; 
+                      margin-left: 800px;}
+
+
+.Lactancia article p{font-size: 15px; 
+                    height: 1400px; 
+                    width: 700px;
+                    position: absolute; 
+                    top: 250px; 
+                    margin-left: 800px;}
+
+*/
